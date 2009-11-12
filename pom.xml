@@ -20,6 +20,15 @@
 	    <namespace>!compojure.server.grizzly</namespace>
 	  </namespaces>
 	</configuration>
+	<executions>
+	  <execution>
+	    <id>compile</id>
+	    <phase>compile</phase>
+	    <goals>
+	      <goal>compile</goal>
+	    </goals>
+	  </execution>
+	</executions>
       </plugin>
     </plugins>
   </build>
